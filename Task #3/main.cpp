@@ -10,17 +10,17 @@ int main()
 	m = 6;
 	n = 4;
 	b = 2;
-	cout << "Кол-во слов=" << m << "  Длина слова=" << n << "  Номер слова B= " << b << "\n";
+	cout << "Quantity of words=" << m << "  Length of word=" << n << "  Number of word B= " << b << "\n";
 	for (i = 1; i < b; i++)
 	{
 		k += n;
 	} 
-	cout << "Буква:" << s[k] << " Номер:" << k << "\n";
+	cout << "Char:" << s[k] << " Number:" << k << "\n";
 	for (i = k; i < 23; i++)
 	{
 		s[i] = s[i + 4];
 	}
-	cout << "Строка, после удаления " << b << " слова:";
+	cout << "String after delete:" << b << " words:";
 	for (i = 0; i < 23; i++)
 	{
 		cout << s[i];
