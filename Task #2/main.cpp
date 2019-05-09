@@ -3,9 +3,8 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Rus");
 	int i, j, k, a[3][3], b[3][3], c[3][3];
-	cout << " Ввод данных матрицы А: \n";
+	cout << " Input array A: \n";
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 3; j++)
@@ -15,7 +14,7 @@ int main()
 		}
 	}
 	cout << "\n";
-	cout << " Матрица А: \n";
+	cout << " Print array A: \n";
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 3; j++)
@@ -25,7 +24,7 @@ int main()
 		cout << '\n';
 	}
 	cout << "\n";
-	cout << " Ввод данных матрицы В: \n";
+	cout << " Input array B: \n";
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 3; j++)
@@ -35,7 +34,7 @@ int main()
 		}
 	}
 	cout << "\n";
-	cout << " Матрица В: \n";
+	cout << " Print array B: \n";
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 3; j++)
@@ -45,7 +44,7 @@ int main()
 		cout << "\n";
 	}
 	cout << "\n";
-	cout << " Матрицы A*B= \n";
+	cout << " Array A*B= \n";
 	for (i = 0; i < 3; i++) 
 	{
 		for (j = 0; j < 3; j++) 
@@ -58,7 +57,7 @@ int main()
 		cout << "\n";
 	}
 	cout << "\n";
-	cout << " Матрицы B*A= \n";
+	cout << " Array B*A= \n";
 	for (i = 0; i < 3; i++) 
 	{
 		for (j = 0; j < 3; j++) 
